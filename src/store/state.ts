@@ -1,3 +1,8 @@
-export const state = {
-    meals: ["salmon"]
-}
+const state = {
+    searchedMeals: [],
+    mealsByLetter: [],
+    mealsByIngredients: [],
+    ingredientsList: []
+};
+
+export default state;
